@@ -1,7 +1,7 @@
 [DEFAULT]
 num_points = 4096
 
-dataset_folder = /media/sf_Datasets/PointNetVLAD
+dataset_folder = /home/joen/iros2021/Dataset/benchmark_datasets
 
 [TRAIN]
 num_workers = 4
@@ -21,4 +21,4 @@ loss = BatchHardTripletMarginLoss
 normalize_embeddings = False
 margin = 0.2
 
-train_file = training_queries_refine.pickle
+train_file = /home/joen/iros2021/Dataset/benchmark_datasets/generating_queries/training_queries_refine.pickle
